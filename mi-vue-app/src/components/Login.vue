@@ -63,7 +63,7 @@
         alert("✅ Login exitoso: " + response.data.message);
       } catch (error) {
         console.error("Error en el login:", error.response?.data || error);
-        this.error = "❌ Credenciales incorrectas";
+        this.error = "❌ Credenciales incorrectas!";
       }
     },
   },
